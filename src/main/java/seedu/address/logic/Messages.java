@@ -55,7 +55,25 @@ public class Messages {
     }
 
     /**
+     * Formats the {@code transaction} for display to the user, including the timestamp.
+     */
+    public static String format(Transaction transaction) {
+        final StringBuilder builder = new StringBuilder();
+        builder.append(transaction.getDescription());
+        builder.append("; Timestamp: ")
+                .append(transaction.getTimestamp());
+        builder.append("; Amount: ")
+                .append(transaction.getAmount())
+                .append("; Paid by: ")
+                .append(transaction.getPayeeName())
+                .append("; Portions: ");
+        transaction.getPortions().forEach(builder::append);
+        return builder.toString();
+    }
+
+    /**
      * Formats the {@code transaction} for display to the user.
+     * @param includeTimestamp whether to include the timestamp in the message.
      */
     public static String format(Transaction transaction, boolean includeTimestamp) {
         final StringBuilder builder = new StringBuilder();
