@@ -14,14 +14,12 @@ Class JsonUserPrefsStorage
 Class "<<interface>>\nStorage" as Storage
 Class StorageManager
 
-package "SpendNSplitBookStorage Storage" #F4F6F6{
-Class "<<interface>>\nSpendNSplitBookStorage" as SpendNSplitBookStorage
-Class JsonSpendNSplitBookStorage
-Class JsonSerializableSpendNSplitBook
+package "AddressBook Storage" #F4F6F6{
+Class "<<interface>>\nAddressBookStorage" as AddressBookStorage
+Class JsonAddressBookStorage
+Class JsonSerializableAddressBook
 Class JsonAdaptedPerson
 Class JsonAdaptedTag
-Class JsonAdaptedTransaction
-Class JsonAdaptedPortion
 }
 
 }
@@ -31,17 +29,15 @@ HiddenOutside ..> Storage
 
 StorageManager .up.|> Storage
 StorageManager -up-> "1" UserPrefsStorage
-StorageManager -up-> "1" SpendNSplitBookStorage
+StorageManager -up-> "1" AddressBookStorage
 
 Storage -left-|> UserPrefsStorage
-Storage -right-|> SpendNSplitBookStorage
+Storage -right-|> AddressBookStorage
 
 JsonUserPrefsStorage .up.|> UserPrefsStorage
-JsonSpendNSplitBookStorage .up.|> SpendNSplitBookStorage
-JsonSpendNSplitBookStorage ..> JsonSerializableSpendNSplitBook
-JsonSerializableSpendNSplitBook --> "*" JsonAdaptedPerson
+JsonAddressBookStorage .up.|> AddressBookStorage
+JsonAddressBookStorage ..> JsonSerializableAddressBook
+JsonSerializableAddressBook --> "*" JsonAdaptedPerson
 JsonAdaptedPerson --> "*" JsonAdaptedTag
 
-JsonSerializableSpendNSplitBook --> "*" JsonAdaptedTransaction
-JsonAdaptedTransaction --> "1..*" JsonAdaptedPortion
 @enduml

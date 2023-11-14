@@ -5,6 +5,8 @@ title: About Us
 
 We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
 
+You can reach us at the email `seer[at]comp.nus.edu.sg`
+
 ## Project team
 
 ### Jed
@@ -12,10 +14,8 @@ We are a team based in the [School of Computing, National University of Singapor
 <img src="images/jedkohjk.png" width="200px">
 
 [[github](https://github.com/jedkohjk)]
-[[portfolio](team/jedkohjk.md)]
 
-* Role: Frontend Engineer / Testing Engineer
-* Responsibilities: Software Development / UI & UX / Unit & Integration Testing
+* Role: Developer
 
 ### Nguyen Cao Duy
 
@@ -24,28 +24,26 @@ We are a team based in the [School of Computing, National University of Singapor
 [[github](https://github.com/ncduy0303)]
 [[portfolio](team/ncduy0303.md)]
 
-* Role: Site Reliability Engineer / DevOps Engineer
-* Responsibilities: Software Development / Build & Deployment / CI & CD 
+* Role: Developer
+* Responsibilities: Full Stack
 
 ### Nathaniel Calimag
 
 <img src="images/nathanielcalimag.png" width="200px">
 
-[[github](http://github.com/nathanielcalimag)]
-[[portfolio](team/nathanielcalimag.md)]
+[[github](http://github.com/nathanielcalimag)] [[portfolio](team/nathanielcalimag.md)]
 
-* Role: Backend Engineer / Quality Assurance
-* Responsibilities: Software Development / Schema Design / Code Quality
+* Role: Software Engineer
+* Responsibilities: Full Stack
 
 ### Khoo Wui Hong
 
 <img src="images/wui-hong.png" width="200px">
 
 [[github](http://github.com/wui-hong)]
-[[portfolio](team/wui-hong.md)]
 
-* Role: Business Analyst / Integration Engineer
-* Responsibilities: Development / Requirements & Documentation / Systems Integration
+* Role: Developer
+* Responsibilities: 
 
 ### Jeffrey Jian
 
@@ -54,5 +52,5 @@ We are a team based in the [School of Computing, National University of Singapor
 [[github](http://github.com/jeffrey-jian)]
 [[portfolio](team/jeffrey-jian.md)]
 
-* Role: Software Architect / Optimisation
-* Responsibilities: Development / Software Design / Automation
+* Role: Developer
+* Responsibilities: Full Stack

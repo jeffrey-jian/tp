@@ -9,24 +9,22 @@ Class XYZCommand
 
 package "Parser classes"{
 Class "<<interface>>\nParser" as Parser
-Class SpendNSplitParser
+Class AddressBookParser
 Class XYZCommandParser
 Class CliSyntax
 Class ParserUtil
 Class ArgumentMultimap
 Class ArgumentTokenizer
-Class CommandAliasMap
 Class Prefix
 }
 
 Class HiddenOutside #FFFFFF
-HiddenOutside ..> SpendNSplitParser
+HiddenOutside ..> AddressBookParser
 
-SpendNSplitParser .down.> XYZCommandParser: creates >
+AddressBookParser .down.> XYZCommandParser: creates >
 
 XYZCommandParser ..> XYZCommand : creates >
-SpendNSplitParser ..> Command : returns >
-SpendNSplitParser ..> CommandAliasMap : accesses >
+AddressBookParser ..> Command : returns >
 XYZCommandParser .up.|> Parser
 XYZCommandParser ..> ArgumentMultimap
 XYZCommandParser ..> ArgumentTokenizer
