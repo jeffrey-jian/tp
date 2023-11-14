@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spend n Split (SnS)
+title: Spend N Split (SNS)
 ---
 
 [![CI Status](https://github.com/AY2324S1-CS2103T-W17-3/tp/workflows/Java%20CI/badge.svg)](https://github.com/AY2324S1-CS2103T-W17-3/tp/actions)
@@ -8,13 +8,19 @@ title: Spend n Split (SnS)
 
 ![Ui](images/Ui.png)
 
-**Spend n Split (SnS) is a desktop app for managing expense from contacts**, optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, SnS can get your contact expense management tasks done faster than traditional GUI apps.
+
+***Taking care of your finances has never been easier!***
+
+Spend N Split (SNS) is an application for managing transactions from your contacts list. Built for university students
+that reside on campus, it utilises your fast typing skills to help you maintain financial accountability between
+yourself and your peers. All you need to do, is to record your transactions in Spend N Split. Filtering, sorting, as
+well as the calculations of balances owed will be automatically handled by Spend N Split.
 
 * Main features:
   * Manage contacts and their personal information
   * Manage expenses between you and your contacts
-* If you are interested in using AddressBook, head over to the [_Quick Start_ section of the **User Guide**](UserGuide.html#quick-start).
-* If you are interested about developing AddressBook, the [**Developer Guide**](DeveloperGuide.html) is a good place to start.
+* If you are interested in using SNS, head over to the [_Quick Start_ section of the **User Guide**](UserGuide.html#quick-start).
+* If you are interested about developing SNS, the [**Developer Guide**](DeveloperGuide.html) is a good place to start.
 
 
 **Acknowledgements**
